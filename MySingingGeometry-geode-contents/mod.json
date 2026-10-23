@@ -9,7 +9,7 @@
 	"id": "yourname.mysingingeometry",
 	"name": "MySingingGeometry",
 	"version": "v1.0.0",
-	"developer": "yourname",
+	"developer": "Zapertillar",
 	"description": "Connects Geometry Dash to the MySingingGeometry private server.",
 	"settings": {
 		"enabled": {
