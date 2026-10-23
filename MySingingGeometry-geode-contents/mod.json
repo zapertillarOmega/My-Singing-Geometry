@@ -1,0 +1,28 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "yourname.mysingingeometry",
+	"name": "MySingingGeometry",
+	"version": "v1.0.0",
+	"developer": "yourname",
+	"description": "Connects Geometry Dash to the MySingingGeometry private server.",
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Use MySingingGeometry server",
+			"description": "Turn off to talk to the official servers instead of MySingingGeometry (restart the game after changing).",
+			"default": true
+		},
+		"server-url": {
+			"type": "string",
+			"name": "MySingingGeometry Server URL",
+			"description": "Base URL of your MySingingGeometry database folder, no trailing slash. Example: https://mysingingeometry.example.com/database",
+			"default": "https://mysingingeometry.example.com/database"
+		}
+	}
+}
